@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .all1 {
+        background-color: gray;
+        padding: 1rem;
+      }
+      .all1 .header1 {
+        display: flex;
+        gap: 1rem;
+      }
+      .all1 .header1 .header1-item {
+        background-color: rgb(120, 38, 38);
+        width: 100%;
+        height: 100px;
+      }
+      .main1 {
+        display: flex;
+        gap: 1rem;
+      }
+      .main1 .left1 {
+        width: 100%;
+        background-color: black;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+      }
+      .main1 .left1 .left1-kvadrat {
+        height: 100px;
+        width: 100px;
+        background-color: yellow;
+      }
+      .main1 .sidebar1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      .main1 .sidebar1 .sidebar1-item {
+        width: 100%;
+        background-color: green;
+        height: 100px;
+      }
+      /* ////////////////////////////////////////////// */
+      .all2 {
+        color: white;
+        margin-top: 10rem;
+      }
+      .all2 .header2 {
+        background-color: blue;
+        padding: 0 2rem;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+      }
+      .all2 .main2 {
+        background-color: green;
+        width: 70%;
+        border-radius: 10px;
+      }
+      .all2 .main2 .main2-items {
+        padding: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+      .all2 .main2 .main2-items .main2-items-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+        background-color: rgb(27, 84, 27);
+        border-radius: 10px;
+        border-bottom:3px solid rgb(14, 33, 14) ;
+      }
+      .all2 .sidebar2 {
+        background-color: red;
+        width: 30%;
+        padding: 0 2rem;
+        height: 500px;
+        border-radius: 10px;
+      }
+      .all2 .sidebarandmain {
+        display: flex;
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+      .all2 .footer2 {
+        padding: 0 2rem;
+        background-color: blue;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="all1">
+      <header class="header1">
+        <div class="header1-item"></div>
+        <div class="header1-item"></div>
+        <div class="header1-item"></div>
+      </header>
+      <main class="main1">
+        <div class="left1">
+          <div class="left1-kvadrat"></div>
+        </div>
+        <div class="sidebar1">
+          <div class="sidebar1-item"></div>
+          <div class="sidebar1-item"></div>
+          <div class="sidebar1-item"></div>
+          <div class="sidebar1-item"></div>
+        </div>
+      </main>
+    </div>
+    <div class="all2">
+      <header class="header2">
+        <h3>Header</h3>
+      </header>
+      <div class="sidebarandmain">
+        <main class="main2">
+          <div class="main2-items">
+            <h3>Main</h3>
+            <div class="main2-items-item"><h3>Item</h3></div>
+            <div class="main2-items-item"><h3>Item</h3></div>
+            <div class="main2-items-item"><h3>Item</h3></div>
+            <div class="main2-items-item"><h3>Item</h3></div>
+            <div class="main2-items-item"><h3>Item</h3></div>
+            <div class="main2-items-item"><h3>Item</h3></div>
+            <div class="main2-items-item"><h3>Item</h3></div>
+            <div class="main2-items-item"><h3>Item</h3></div>
+            <div class="main2-items-item"><h3>Item</h3></div>
+            <div class="main2-items-item"><h3>Item</h3></div>
+            <div class="main2-items-item"><h3>Item</h3></div>
+          </div>
+        </main>
+        <div class="sidebar2">
+          <h3>Sidebar</h3>
+        </div>
+      </div>
+      <footer class="footer2">
+        <h3>Footer</h3>
+      </footer>
+    </div>
+  </body>
+</html>
